@@ -1,0 +1,26 @@
+{
+  "name": "targetsum",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.16",
+    "expo-status-bar": "~2.2.3",
+    "lodash.shuffle": "^4.2.0",
+    "react": "19.0.0",
+    "react-native": "0.79.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react": "^7.37.5"
+  },
+  "private": true
+}
